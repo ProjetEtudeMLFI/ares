@@ -62,4 +62,4 @@ python "${ARESPATH}/experiments/bits/bits.py" \
     -qf 6 \
     -ld_name "${PRETRAINED_WEIGHTS}/mnist_fc_quantized_2_6" \
     -frate "${FRATE}" \
-    -seed "${SEED}" | tee -a "${LOG_MNIST_PATH}/$fnamemkdir" -p results
+    -seed "${SEED}" | tee -a "${LOG_MNIST_PATH}/$fname" -p results
