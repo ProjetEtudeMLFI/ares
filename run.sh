@@ -7,7 +7,7 @@ PRETRAINED_WEIGHTS="${ARESPATH}/quantized_weights"
 CACHE_PATH="cache"
 RESULT_PATH="results"
 LOG_MNIST_PATH="logs/mnist_fc"
-CONF_PATH="conf"
+CONF_PATH="${ARESPATH}/conf"
 
 THEANO_FLAGS='device=gpu'
 SEED=0
