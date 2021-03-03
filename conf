@@ -1,7 +1,7 @@
 {
-  "dl_models_root"  : "/ares/dl-models/",
-  "results_dir"     : "/ares/results",
-  "cache_dir"       : "/ares/cache",
-  "experiment_dir"  : "/ares/experiments/sweeps/exp_configs",
-  "experiment_base" : "/ares/experiments/sweeps/"
+  "dl_models_root"  : "./ares/dl-models/",
+  "results_dir"     : "./results",
+  "cache_dir"       : "./cache",
+  "experiment_dir"  : "./ares/experiments/sweeps/exp_configs",
+  "experiment_base" : "./ares/experiments/sweeps/"
 }
